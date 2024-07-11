@@ -1,0 +1,53 @@
+:root{
+    --text-color-white:#fbfbfb;
+    --text-color-black:#161617;
+    --bg-color:#161617;
+    --font-family:"SF Pro Text", "SF Pro Icons", "AOS Icons",
+     "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#nav{
+    /* border:2px solid; */
+    height:44px;
+    background-color: var(--text-color-black);
+
+}
+#sub-nav1{
+    /* border:2px solid red; */
+    width:65%;
+    margin: auto;
+}
+#sub-nav1 ol{
+    padding: 0%;
+    list-style: none;
+    display:inline-flex;
+    height:inherit;
+    width:100%;
+    /* border:2px solid; */
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color-white);
+}
+#sub-nav1 ol li span{
+    text-transform: none;
+    /* color:var(--text-color-white) */
+}
+#sub-nav1 ol li svg{
+    fill:var(--text-color-white)
+}
+#sub-main{
+    border:2px solid;
+    height:98vh;
+    background-image: url(./images/bg-image\ apple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
